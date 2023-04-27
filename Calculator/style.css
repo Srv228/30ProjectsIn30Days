@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #f2f2f2;
+    background-color: rgba(183, 132, 183, 0.6); */
+    background-color:#030107;
+    font-family: sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator{
+     /* background: #e0e0e0; */
+     background-color: #1f1f1f;
+     /* box-shadow: 10px 10px 30px #e12929 ,
+     -10px -10px 30px #ffffff; */
+     border-radius: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 20px;
+     width: 350px;
+}
+
+.screen{
+      background-color:#d3d3d3 ;
+      border-radius: 10px;
+      box-shadow: inset 5px 5px 10px #c0c0c0 ,
+      inset -5px-5px 10px #ffffff;
+      color: #0b0606;
+      font-size: 24px;
+      font-weight: bold;
+      height:60px;
+      margin-bottom: 20px;
+      padding: 10px;
+      text-align: right;
+      width: 100%;
+}
+
+button{
+    /* background-color: #e0e0e0; */
+    background-color: #4b4b4b;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000000,
+    -5px -5px 10px #763b9e;
+    color: #333;
+    cursor: pointer;
+    font-size: 24px;
+    height: 60px;
+    margin: 5px;
+    padding:0  20px ;
+    transition: box-shadow 0.3s ease;
+    width: calc(25% - 10px);
+}
+
+.clear{
+    margin-top: 25px;
+    background-color: rgba(35, 11, 35, 0.6);
+    /* box-shadow: 5px 5px 10px #c0c0c0,
+    -5px -5px 10px #ffffff;
+    color: #ffffff; */
+    width: 100%;
+    color: beige;
+}
+
+button:hover{
+    box-shadow: 2px 2px 5px #2c2a2a,
+    inset -2px -2px 5px #ffffff;
+}
